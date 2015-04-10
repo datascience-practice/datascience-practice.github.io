@@ -60,3 +60,6 @@ target/
 cache/
 output/
 
+# IPython stuff:
+.ipynb_checkpoints
+
