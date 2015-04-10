@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
         <meta charset="utf-8" />
-        <title>Data Science Practice</title>
+        <title>Is it Fair?</title>
         <link rel="stylesheet" href="http://datascience-practice.github.io/theme/css/main.css" />
         <link href="http://datascience-practice.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Data Science Practice Atom Feed" />
 
@@ -15,39 +15,19 @@
         <header id="banner" class="body">
                 <h1><a href="http://datascience-practice.github.io/">Data Science Practice </a></h1>
                 <nav><ul>
-                    <li><a href="http://datascience-practice.github.io/category/intro-to-data-science.html">Intro to Data Science</a></li>
+                    <li class="active"><a href="http://datascience-practice.github.io/category/intro-to-data-science.html">Intro to Data Science</a></li>
                     <li><a href="http://datascience-practice.github.io/category/misc.html">misc</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://datascience-practice.github.io/is-it-fair.html" rel="bookmark"
+           title="Permalink to Is it Fair?">Is it Fair?</a></h1>
+    </header>
 
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="http://datascience-practice.github.io/welcome.html">Welcome!</a></h1>
-<footer class="post-info">
-        <abbr class="published" title="2015-04-10T14:01:00+00:00">
-                Published: Fri 10 April 2015
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="http://datascience-practice.github.io/author/sergey-vlasov.html">Sergey Vlasov</a>
-        </address>
-<p>In <a href="http://datascience-practice.github.io/category/misc.html">misc</a>. </p>
-
-</footer><!-- /.post-info --><h1>Welcome to <strong>Data Science Practice!</strong></h1>
-<h1><a href="">IPython notebooks</a></h1>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="http://datascience-practice.github.io/is-it-fair.html" rel="bookmark"
-                           title="Permalink to Is it Fair?">Is it Fair?</a></h1>
-                </header>
-
-                <div class="entry-content">
+    <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2015-04-10T00:00:00+02:00">
                 Published: Fri 10 April 2015
@@ -58,7 +38,7 @@
         </address>
 <p>In <a href="http://datascience-practice.github.io/category/intro-to-data-science.html">Intro to Data Science</a>. </p>
 
-</footer><!-- /.post-info -->                <h1>Basic conditions</h1>
+</footer><!-- /.post-info -->      <h1>Basic conditions</h1>
 <hr />
 <ul>
 <li>Probability of picking a fair coin:
@@ -76,15 +56,31 @@
     p(h|f) = 0.5</p>
 </li>
 </ul>
-<h2>Given outcome ...</h2>
-                <a class="readmore" href="http://datascience-practice.github.io/is-it-fair.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-                </ol><!-- /#posts-list -->
-<p class="paginator">
-    Page 1 / 1
-</p>
-                </section><!-- /#content -->
+<h2>Given outcome(sequence): 4H0T</h2>
+<hr />
+<ul>
+<li>seq = 4H0T = HHHH</li>
+</ul>
+<h3>Fair coin case:</h3>
+<hr />
+<ul>
+<li>probability of the outcome, given a fair coin:
+    p(seq|f) = p(h|f) <strong> 4 = 0.5</strong>4</li>
+<li>combined probability of picking a fair coin AND getting the sequence:
+    p(seq, f) = p(f) * p(seq|f)</li>
+</ul>
+<h3>Loaded coin case:</h3>
+<hr />
+<ul>
+<li>probability of the outcome, given a loaded coin:
+    p(seq|l) = p(h|l) <strong> 4 = 0.5</strong>4</li>
+<li>combined probability of picking a fair coin AND getting the sequence:
+    p(seq, f) = p(f) * p(seq|f)</li>
+</ul>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
         <section id="extras" class="body">
                 <div class="blogroll">
                         <h2>blogroll</h2>
