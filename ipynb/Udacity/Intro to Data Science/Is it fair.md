@@ -1,6 +1,3 @@
-Title: Is it Fair?
-Date: 2015-04-10
-
 #Basic conditions
 ---
 
