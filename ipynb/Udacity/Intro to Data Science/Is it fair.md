@@ -29,7 +29,7 @@
 ---
 
 * probability of the outcome, given a loaded coin:
-    p(seq|l) = p(h|l) ** 4 = 0.5**4
+    p(seq|l) = p(h|l) ** 4 = 0.5 ** 4
 * combined probability of picking a fair coin AND getting the sequence:
     p(seq, f) = p(f) * p(seq|f)
 
